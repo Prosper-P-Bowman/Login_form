@@ -1,3 +1,284 @@
-h1{
-    color: red;
+/* Media Query for Mobile Devices */ 
+@media (min-width: 110px) and (max-width: 480px) {
+    body{
+        text-align: center;
+    }
+    svg{
+        margin-top: 100px;
+    }
+    .leftside{
+        display: none;
+    }
+    .rightside{
+        display: block;
+        width: 100%;
+    }
+    .rightslide{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+    a{
+        margin-top: 10px;
+        text-decoration: none;
+        list-style: none;
+    }
+    input{
+        border-radius: 15px;
+        padding: 15px;
+        color: black;
+    }
+    button{
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #1840f2;
+        border-color: #1840f2;
+    }
+    .createBtn{
+        margin-top: 50px;
+    }
+}
+/* Media Query for low resolution Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) {
+    body{
+        text-align: center;
+    }
+    svg{
+        margin-top: 100px;
+    }
+    .leftside{
+        display: none;
+    }
+    .rightside{
+        display: block;
+        width: 100%;
+    }
+    .rightslide{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+    a{
+        margin-top: 10px;
+        text-decoration: none;
+        list-style: none;
+    }
+    input{
+        border-radius: 15px;
+        padding: 15px;
+        color: black;
+    }
+    button{
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #1840f2;
+        border-color: #1840f2;
+    }
+    .createBtn{
+        margin-top: 50px;
+    }
+}
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .section{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    svg{
+        display: none;
+    }
+    .group{
+        display: flex;
+        width: 85%;
+        gap: 50px;
+        /* justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center; */
+    }
+    .leftside{
+        width: 50%;
+        align-content: center;
+        text-align: left;
+    }
+    h1{
+        margin-top: -30px;
+        font-size: 40px;
+        color: #1840f2;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .paragraphy{
+        margin-top: -20px;
+        color: black;
+        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .rightside{
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        width: 50%;
+        height: 70vh;
+    }
+    .rightslide{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 35px;  
+    }
+    input{
+        border-radius: 8px;
+        padding: 12px;
+        color: black;
+    }
+    button{
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #1840f2;
+        border-color: #1840f2; 
+    }
+    .createBtn{
+        font-size: 8px;
+        width: 40%;
+        align-self: center;
+        background-color: rgb(8, 148, 8);
+        border-color: rgb(8, 148, 8);
+    }
+    .rightside .parage{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .section{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    svg{
+        display: none;
+    }
+    .group{
+        display: flex;
+        width: 85%;
+        gap: 50px;
+        /* justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center; */
+    }
+    .leftside{
+        width: 50%;
+        align-content: center;
+        text-align: left;
+    }
+    h1{
+        margin-top: -30px;
+        font-size: 40px;
+        color: #1840f2;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .paragraphy{
+        margin-top: -20px;
+        color: black;
+        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .rightside{
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        width: 50%;
+        height: 70vh;
+    }
+    .rightslide{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 35px;  
+    }
+    input{
+        border-radius: 8px;
+        padding: 12px;
+        color: black;
+    }
+    button{
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #1840f2;
+        border-color: #1840f2; 
+    }
+    .createBtn{
+        font-size: 8px;
+        width: 40%;
+        align-self: center;
+        background-color: rgb(8, 148, 8);
+        border-color: rgb(8, 148, 8);
+    }
+    .rightside .parage{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
